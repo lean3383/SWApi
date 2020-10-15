@@ -11,6 +11,9 @@ Para levantar los endpoints:
 	docker-compose up
 3) Para ejecutar los tests
 	docker-compose run web python Main/manage.py test
+4) Los endpoints se encontraran disponibles en:
+	http://localhost:8000/character/<id>/            (only GET)
+	http://localhost:8000/character/<id>/<rating>/   (only POST)
 
 Gracias por la oportunidad.
 Ing. Leandro Martinez
