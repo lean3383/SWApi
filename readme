@@ -1,0 +1,16 @@
+#SWApi challenge to coderio
+
+Para levantar los endpoints:
+
+1) Descargar el repositorio desde https://github.com/lean3383/SWApi.git
+	git clone https://github.com/lean3383/SWApi.git
+2) En el directorio raiz del proyecto ejecutar los siguientes comandos para ejecutar el server
+	docker-compose build
+	docker-compose run web python Main/manage.py makemigrations
+	docker-compose run web python Main/manage.py migrate
+	docker-compose up
+3) Para ejecutar los tests
+	docker-compose run web python Main/manage.py test
+
+Gracias por la oportunidad.
+Ing. Leandro Martinez
